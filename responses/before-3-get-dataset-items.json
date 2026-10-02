@@ -1,0 +1,1703 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"datasetId\":\"DATASET_ID_BEFORE\",\"items\":[{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-02\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 1175\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-02T09:20\",\"arrival\":\"2026-11-02T12:54\",\"durationMinutes\":334,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-02T09:20\",\"arrival\":\"2026-11-02T12:54\",\"durationMinutes\":334,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 1175\",\"aircraft\":\"Boeing 777\",\"legroom\":\"31 inches\",\"emissionsGrams\":239744}],\"emissionsGrams\":240000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-28,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDJqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-01\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 1509\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-01T16:47\",\"arrival\":\"2026-11-01T20:30\",\"durationMinutes\":343,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-01T16:47\",\"arrival\":\"2026-11-01T20:30\",\"durationMinutes\":343,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 1509\",\"aircraft\":\"Boeing 757\",\"legroom\":\"30 inches\",\"emissionsGrams\":330785}],\"emissionsGrams\":331000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":0,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDFqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-03\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-03T07:20\",\"arrival\":\"2026-11-03T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-03T07:20\",\"arrival\":\"2026-11-03T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDNqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-04\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 2380\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-04T10:55\",\"arrival\":\"2026-11-04T14:40\",\"durationMinutes\":345,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-04T10:55\",\"arrival\":\"2026-11-04T14:40\",\"durationMinutes\":345,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 2380\",\"aircraft\":\"Boeing 737MAX 9 Passenger\",\"legroom\":\"30 inches\",\"emissionsGrams\":245391}],\"emissionsGrams\":245000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-26,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-06\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":269,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-06T07:20\",\"arrival\":\"2026-11-06T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-06T07:20\",\"arrival\":\"2026-11-06T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-07\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":269,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 1175\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-07T09:20\",\"arrival\":\"2026-11-07T12:54\",\"durationMinutes\":334,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-07T09:20\",\"arrival\":\"2026-11-07T12:54\",\"durationMinutes\":334,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 1175\",\"aircraft\":\"Boeing 777\",\"legroom\":\"31 inches\",\"emissionsGrams\":239744}],\"emissionsGrams\":240000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-28,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-08\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 1175\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-08T09:20\",\"arrival\":\"2026-11-08T12:54\",\"durationMinutes\":334,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-08T09:20\",\"arrival\":\"2026-11-08T12:54\",\"durationMinutes\":334,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 1175\",\"aircraft\":\"Boeing 777\",\"legroom\":\"31 inches\",\"emissionsGrams\":239744}],\"emissionsGrams\":240000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-28,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDhqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-09\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-09T07:20\",\"arrival\":\"2026-11-09T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-09T07:20\",\"arrival\":\"2026-11-09T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDlqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-05\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":239,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 1175\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-05T09:20\",\"arrival\":\"2026-11-05T12:54\",\"durationMinutes\":334,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-05T09:20\",\"arrival\":\"2026-11-05T12:54\",\"durationMinutes\":334,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 1175\",\"aircraft\":\"Boeing 777\",\"legroom\":\"31 inches\",\"emissionsGrams\":239744}],\"emissionsGrams\":240000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-28,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDVqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-12\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":239,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-12T07:20\",\"arrival\":\"2026-11-12T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-12T07:20\",\"arrival\":\"2026-11-12T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTJqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-10\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-10T07:20\",\"arrival\":\"2026-11-10T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-10T07:20\",\"arrival\":\"2026-11-10T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTBqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-13\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":269,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-13T07:20\",\"arrival\":\"2026-11-13T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-13T07:20\",\"arrival\":\"2026-11-13T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTNqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-14\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":269,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-14T07:20\",\"arrival\":\"2026-11-14T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-14T07:20\",\"arrival\":\"2026-11-14T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTRqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-15\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-15T07:20\",\"arrival\":\"2026-11-15T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-15T07:20\",\"arrival\":\"2026-11-15T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTVqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-11\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 2380\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-11T10:55\",\"arrival\":\"2026-11-11T14:40\",\"durationMinutes\":345,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-11T10:55\",\"arrival\":\"2026-11-11T14:40\",\"durationMinutes\":345,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 2380\",\"aircraft\":\"Boeing 737MAX 9 Passenger\",\"legroom\":\"30 inches\",\"emissionsGrams\":245391}],\"emissionsGrams\":245000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-26,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTFqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-17\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-17T07:20\",\"arrival\":\"2026-11-17T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-17T07:20\",\"arrival\":\"2026-11-17T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTdqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-16\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-16T07:20\",\"arrival\":\"2026-11-16T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-16T07:20\",\"arrival\":\"2026-11-16T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTZqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-19\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":323,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 300\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-19T13:55\",\"arrival\":\"2026-11-19T17:29\",\"durationMinutes\":334,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-19T13:55\",\"arrival\":\"2026-11-19T17:29\",\"durationMinutes\":334,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 300\",\"aircraft\":\"Boeing 777\",\"legroom\":\"31 inches\",\"emissionsGrams\":253167}],\"emissionsGrams\":253000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-24,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"high\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTlqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-20\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":444,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 1450\",\"AS 94\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-20T08:25\",\"arrival\":\"2026-11-20T15:08\",\"durationMinutes\":523,\"stops\":1,\"layovers\":[{\"durationMinutes\":41,\"airport\":\"SAN\",\"airportName\":\"San Diego International Airport\",\"city\":\"San Diego\"}],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"SAN\",\"toName\":\"San Diego International Airport\",\"departure\":\"2026-11-20T08:25\",\"arrival\":\"2026-11-20T10:04\",\"durationMinutes\":99,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 1450\",\"aircraft\":\"Boeing 737\",\"legroom\":\"31 inches\",\"emissionsGrams\":101356},{\"from\":\"SAN\",\"fromName\":\"San Diego International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-20T10:45\",\"arrival\":\"2026-11-20T15:08\",\"durationMinutes\":383,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 94\",\"aircraft\":\"Boeing 737MAX 9 Passenger\",\"legroom\":\"31 inches\",\"emissionsGrams\":274684}],\"emissionsGrams\":376000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":13,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"high\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjBqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-22\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":313,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 856\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-22T19:56\",\"arrival\":\"2026-11-22T23:34\",\"durationMinutes\":338,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-22T19:56\",\"arrival\":\"2026-11-22T23:34\",\"durationMinutes\":338,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 856\",\"aircraft\":\"Airbus A321\",\"legroom\":\"30 inches\",\"emissionsGrams\":305623}],\"emissionsGrams\":306000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-8,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"high\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjJqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-18\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":283,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 833\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-18T19:56\",\"arrival\":\"2026-11-18T23:32\",\"durationMinutes\":336,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-18T19:56\",\"arrival\":\"2026-11-18T23:32\",\"durationMinutes\":336,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 833\",\"aircraft\":\"Airbus A321\",\"legroom\":\"30 inches\",\"emissionsGrams\":305623}],\"emissionsGrams\":306000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-8,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMThqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-23\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":228,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 789\",\"AS 1084\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-23T07:00\",\"arrival\":\"2026-11-23T13:26\",\"durationMinutes\":506,\"stops\":1,\"layovers\":[{\"durationMinutes\":117,\"airport\":\"LIH\",\"airportName\":\"Lihue Airport\",\"city\":\"Kauai\"}],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"LIH\",\"toName\":\"Lihue Airport\",\"departure\":\"2026-11-23T07:00\",\"arrival\":\"2026-11-23T10:48\",\"durationMinutes\":348,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 789\",\"aircraft\":\"Boeing 737\",\"legroom\":\"31 inches\",\"emissionsGrams\":337858},{\"from\":\"LIH\",\"fromName\":\"Lihue Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-23T12:45\",\"arrival\":\"2026-11-23T13:26\",\"durationMinutes\":41,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 1084\",\"aircraft\":\"Boeing 717\",\"legroom\":\"29 inches\",\"emissionsGrams\":43108}],\"emissionsGrams\":381000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":15,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjNqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-24\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":172,\"airlines\":[\"Delta\"],\"airlineCode\":\"DL\",\"flightNumbers\":[\"DL 1715\",\"DL 443\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-24T14:47\",\"arrival\":\"2026-11-24T21:04\",\"durationMinutes\":497,\"stops\":1,\"layovers\":[{\"durationMinutes\":65,\"airport\":\"LAX\",\"airportName\":\"Los Angeles International Airport\",\"city\":\"Los Angeles\"}],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"LAX\",\"toName\":\"Los Angeles International Airport\",\"departure\":\"2026-11-24T14:47\",\"arrival\":\"2026-11-24T16:10\",\"durationMinutes\":83,\"airlineCode\":\"DL\",\"airline\":\"Delta\",\"flightNumber\":\"DL 1715\",\"aircraft\":\"Boeing 737\",\"legroom\":\"31 inches\",\"emissionsGrams\":74817},{\"from\":\"LAX\",\"fromName\":\"Los Angeles International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-24T17:15\",\"arrival\":\"2026-11-24T21:04\",\"durationMinutes\":349,\"airlineCode\":\"DL\",\"airline\":\"Delta\",\"flightNumber\":\"DL 443\",\"aircraft\":\"Boeing 767\",\"legroom\":\"31 inches\",\"emissionsGrams\":209601}],\"emissionsGrams\":284000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-14,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjRqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-25\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":172,\"airlines\":[\"Delta\"],\"airlineCode\":\"DL\",\"flightNumbers\":[\"DL 1715\",\"DL 443\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-25T14:47\",\"arrival\":\"2026-11-25T21:04\",\"durationMinutes\":497,\"stops\":1,\"layovers\":[{\"durationMinutes\":65,\"airport\":\"LAX\",\"airportName\":\"Los Angeles International Airport\",\"city\":\"Los Angeles\"}],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"LAX\",\"toName\":\"Los Angeles International Airport\",\"departure\":\"2026-11-25T14:47\",\"arrival\":\"2026-11-25T16:10\",\"durationMinutes\":83,\"airlineCode\":\"DL\",\"airline\":\"Delta\",\"flightNumber\":\"DL 1715\",\"aircraft\":\"Boeing 737\",\"legroom\":\"31 inches\",\"emissionsGrams\":74817},{\"from\":\"LAX\",\"fromName\":\"Los Angeles International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-25T17:15\",\"arrival\":\"2026-11-25T21:04\",\"durationMinutes\":349,\"airlineCode\":\"DL\",\"airline\":\"Delta\",\"flightNumber\":\"DL 443\",\"aircraft\":\"Boeing 767\",\"legroom\":\"31 inches\",\"emissionsGrams\":209601}],\"emissionsGrams\":284000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-14,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjVqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-26\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":239,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 1175\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-26T09:20\",\"arrival\":\"2026-11-26T12:54\",\"durationMinutes\":334,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-26T09:20\",\"arrival\":\"2026-11-26T12:54\",\"durationMinutes\":334,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 1175\",\"aircraft\":\"Boeing 777\",\"legroom\":\"31 inches\",\"emissionsGrams\":239744}],\"emissionsGrams\":240000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-28,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjZqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-27\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":269,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-27T07:20\",\"arrival\":\"2026-11-27T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-27T07:20\",\"arrival\":\"2026-11-27T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjdqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-29\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":223,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-29T07:20\",\"arrival\":\"2026-11-29T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-29T07:20\",\"arrival\":\"2026-11-29T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjlqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-30\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":163,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 811\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-30T07:20\",\"arrival\":\"2026-11-30T11:10\",\"durationMinutes\":350,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-30T07:20\",\"arrival\":\"2026-11-30T11:10\",\"durationMinutes\":350,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 811\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":257079}],\"emissionsGrams\":257000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-23,\"isCheapest\":true,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"low\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMzBqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-21\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":413,\"airlines\":[\"Alaska\"],\"airlineCode\":\"AS\",\"flightNumbers\":[\"AS 1610\",\"AS 809\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-21T15:07\",\"arrival\":\"2026-11-21T21:12\",\"durationMinutes\":485,\"stops\":1,\"layovers\":[{\"durationMinutes\":38,\"airport\":\"LAX\",\"airportName\":\"Los Angeles International Airport\",\"city\":\"Los Angeles\"}],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"LAX\",\"toName\":\"Los Angeles International Airport\",\"departure\":\"2026-11-21T15:07\",\"arrival\":\"2026-11-21T16:32\",\"durationMinutes\":85,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 1610\",\"aircraft\":\"Boeing 737\",\"legroom\":\"31 inches\",\"emissionsGrams\":69137},{\"from\":\"LAX\",\"fromName\":\"Los Angeles International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-21T17:10\",\"arrival\":\"2026-11-21T21:12\",\"durationMinutes\":362,\"airlineCode\":\"AS\",\"airline\":\"Alaska\",\"flightNumber\":\"AS 809\",\"aircraft\":\"Airbus A330\",\"legroom\":\"31 inches\",\"emissionsGrams\":252662}],\"emissionsGrams\":322000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-3,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjFqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"},{\"route\":\"SFO-HNL\",\"tripType\":\"one-way\",\"searchDepartureDate\":\"2026-11-28\",\"searchReturnDate\":null,\"rank\":1,\"isBest\":true,\"price\":269,\"airlines\":[\"United\"],\"airlineCode\":\"UA\",\"flightNumbers\":[\"UA 2318\"],\"from\":\"SFO\",\"to\":\"HNL\",\"departure\":\"2026-11-28T07:15\",\"arrival\":\"2026-11-28T11:03\",\"durationMinutes\":348,\"stops\":0,\"layovers\":[],\"segments\":[{\"from\":\"SFO\",\"fromName\":\"San Francisco International Airport\",\"to\":\"HNL\",\"toName\":\"Daniel K. Inouye International Airport\",\"departure\":\"2026-11-28T07:15\",\"arrival\":\"2026-11-28T11:03\",\"durationMinutes\":348,\"airlineCode\":\"UA\",\"airline\":\"United\",\"flightNumber\":\"UA 2318\",\"aircraft\":\"Boeing 737MAX 9 Passenger\",\"legroom\":\"30 inches\",\"emissionsGrams\":245391}],\"emissionsGrams\":245000,\"typicalEmissionsGrams\":332000,\"emissionsVsTypicalPct\":-26,\"isCheapest\":false,\"currency\":\"USD\",\"cabinClass\":\"economy\",\"passengers\":1,\"priceLevel\":\"typical\",\"typicalPriceLow\":219,\"typicalPriceHigh\":305,\"googleFlightsUrl\":\"https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjhqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD\",\"scrapedAt\":\"2026-10-02T20:59:26.473Z\"}],\"itemCount\":30,\"totalItemCount\":30,\"offset\":0,\"limit\":50}"
+      },
+      {
+        "type": "text",
+        "text": "Fetched all 30 items.\nNo more pages. Inspect the returned items directly."
+      }
+    ],
+    "structuredContent": {
+      "datasetId": "DATASET_ID_BEFORE",
+      "items": [
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-02",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 1175"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-02T09:20",
+          "arrival": "2026-11-02T12:54",
+          "durationMinutes": 334,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-02T09:20",
+              "arrival": "2026-11-02T12:54",
+              "durationMinutes": 334,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 1175",
+              "aircraft": "Boeing 777",
+              "legroom": "31 inches",
+              "emissionsGrams": 239744
+            }
+          ],
+          "emissionsGrams": 240000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -28,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDJqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-01",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 1509"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-01T16:47",
+          "arrival": "2026-11-01T20:30",
+          "durationMinutes": 343,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-01T16:47",
+              "arrival": "2026-11-01T20:30",
+              "durationMinutes": 343,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 1509",
+              "aircraft": "Boeing 757",
+              "legroom": "30 inches",
+              "emissionsGrams": 330785
+            }
+          ],
+          "emissionsGrams": 331000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": 0,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDFqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-03",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-03T07:20",
+          "arrival": "2026-11-03T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-03T07:20",
+              "arrival": "2026-11-03T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDNqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-04",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 2380"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-04T10:55",
+          "arrival": "2026-11-04T14:40",
+          "durationMinutes": 345,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-04T10:55",
+              "arrival": "2026-11-04T14:40",
+              "durationMinutes": 345,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 2380",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "legroom": "30 inches",
+              "emissionsGrams": 245391
+            }
+          ],
+          "emissionsGrams": 245000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -26,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDRqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-06",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 269,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-06T07:20",
+          "arrival": "2026-11-06T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-06T07:20",
+              "arrival": "2026-11-06T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDZqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-07",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 269,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 1175"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-07T09:20",
+          "arrival": "2026-11-07T12:54",
+          "durationMinutes": 334,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-07T09:20",
+              "arrival": "2026-11-07T12:54",
+              "durationMinutes": 334,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 1175",
+              "aircraft": "Boeing 777",
+              "legroom": "31 inches",
+              "emissionsGrams": 239744
+            }
+          ],
+          "emissionsGrams": 240000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -28,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDdqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-08",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 1175"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-08T09:20",
+          "arrival": "2026-11-08T12:54",
+          "durationMinutes": 334,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-08T09:20",
+              "arrival": "2026-11-08T12:54",
+              "durationMinutes": 334,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 1175",
+              "aircraft": "Boeing 777",
+              "legroom": "31 inches",
+              "emissionsGrams": 239744
+            }
+          ],
+          "emissionsGrams": 240000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -28,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDhqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-09",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-09T07:20",
+          "arrival": "2026-11-09T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-09T07:20",
+              "arrival": "2026-11-09T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDlqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-05",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 239,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 1175"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-05T09:20",
+          "arrival": "2026-11-05T12:54",
+          "durationMinutes": 334,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-05T09:20",
+              "arrival": "2026-11-05T12:54",
+              "durationMinutes": 334,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 1175",
+              "aircraft": "Boeing 777",
+              "legroom": "31 inches",
+              "emissionsGrams": 239744
+            }
+          ],
+          "emissionsGrams": 240000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -28,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMDVqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-12",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 239,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-12T07:20",
+          "arrival": "2026-11-12T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-12T07:20",
+              "arrival": "2026-11-12T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTJqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-10",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-10T07:20",
+          "arrival": "2026-11-10T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-10T07:20",
+              "arrival": "2026-11-10T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTBqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-13",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 269,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-13T07:20",
+          "arrival": "2026-11-13T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-13T07:20",
+              "arrival": "2026-11-13T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTNqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-14",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 269,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-14T07:20",
+          "arrival": "2026-11-14T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-14T07:20",
+              "arrival": "2026-11-14T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTRqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-15",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-15T07:20",
+          "arrival": "2026-11-15T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-15T07:20",
+              "arrival": "2026-11-15T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTVqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-11",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 2380"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-11T10:55",
+          "arrival": "2026-11-11T14:40",
+          "durationMinutes": 345,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-11T10:55",
+              "arrival": "2026-11-11T14:40",
+              "durationMinutes": 345,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 2380",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "legroom": "30 inches",
+              "emissionsGrams": 245391
+            }
+          ],
+          "emissionsGrams": 245000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -26,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTFqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-17",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-17T07:20",
+          "arrival": "2026-11-17T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-17T07:20",
+              "arrival": "2026-11-17T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTdqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-16",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-16T07:20",
+          "arrival": "2026-11-16T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-16T07:20",
+              "arrival": "2026-11-16T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTZqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-19",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 323,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 300"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-19T13:55",
+          "arrival": "2026-11-19T17:29",
+          "durationMinutes": 334,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-19T13:55",
+              "arrival": "2026-11-19T17:29",
+              "durationMinutes": 334,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 300",
+              "aircraft": "Boeing 777",
+              "legroom": "31 inches",
+              "emissionsGrams": 253167
+            }
+          ],
+          "emissionsGrams": 253000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -24,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "high",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMTlqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-20",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 444,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 1450",
+            "AS 94"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-20T08:25",
+          "arrival": "2026-11-20T15:08",
+          "durationMinutes": 523,
+          "stops": 1,
+          "layovers": [
+            {
+              "durationMinutes": 41,
+              "airport": "SAN",
+              "airportName": "San Diego International Airport",
+              "city": "San Diego"
+            }
+          ],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "SAN",
+              "toName": "San Diego International Airport",
+              "departure": "2026-11-20T08:25",
+              "arrival": "2026-11-20T10:04",
+              "durationMinutes": 99,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 1450",
+              "aircraft": "Boeing 737",
+              "legroom": "31 inches",
+              "emissionsGrams": 101356
+            },
+            {
+              "from": "SAN",
+              "fromName": "San Diego International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-20T10:45",
+              "arrival": "2026-11-20T15:08",
+              "durationMinutes": 383,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 94",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "legroom": "31 inches",
+              "emissionsGrams": 274684
+            }
+          ],
+          "emissionsGrams": 376000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": 13,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "high",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjBqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-22",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 313,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 856"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-22T19:56",
+          "arrival": "2026-11-22T23:34",
+          "durationMinutes": 338,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-22T19:56",
+              "arrival": "2026-11-22T23:34",
+              "durationMinutes": 338,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 856",
+              "aircraft": "Airbus A321",
+              "legroom": "30 inches",
+              "emissionsGrams": 305623
+            }
+          ],
+          "emissionsGrams": 306000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -8,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "high",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjJqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-18",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 283,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 833"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-18T19:56",
+          "arrival": "2026-11-18T23:32",
+          "durationMinutes": 336,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-18T19:56",
+              "arrival": "2026-11-18T23:32",
+              "durationMinutes": 336,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 833",
+              "aircraft": "Airbus A321",
+              "legroom": "30 inches",
+              "emissionsGrams": 305623
+            }
+          ],
+          "emissionsGrams": 306000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -8,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMThqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-23",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 228,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 789",
+            "AS 1084"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-23T07:00",
+          "arrival": "2026-11-23T13:26",
+          "durationMinutes": 506,
+          "stops": 1,
+          "layovers": [
+            {
+              "durationMinutes": 117,
+              "airport": "LIH",
+              "airportName": "Lihue Airport",
+              "city": "Kauai"
+            }
+          ],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "LIH",
+              "toName": "Lihue Airport",
+              "departure": "2026-11-23T07:00",
+              "arrival": "2026-11-23T10:48",
+              "durationMinutes": 348,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 789",
+              "aircraft": "Boeing 737",
+              "legroom": "31 inches",
+              "emissionsGrams": 337858
+            },
+            {
+              "from": "LIH",
+              "fromName": "Lihue Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-23T12:45",
+              "arrival": "2026-11-23T13:26",
+              "durationMinutes": 41,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 1084",
+              "aircraft": "Boeing 717",
+              "legroom": "29 inches",
+              "emissionsGrams": 43108
+            }
+          ],
+          "emissionsGrams": 381000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": 15,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjNqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-24",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 172,
+          "airlines": [
+            "Delta"
+          ],
+          "airlineCode": "DL",
+          "flightNumbers": [
+            "DL 1715",
+            "DL 443"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-24T14:47",
+          "arrival": "2026-11-24T21:04",
+          "durationMinutes": 497,
+          "stops": 1,
+          "layovers": [
+            {
+              "durationMinutes": 65,
+              "airport": "LAX",
+              "airportName": "Los Angeles International Airport",
+              "city": "Los Angeles"
+            }
+          ],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "LAX",
+              "toName": "Los Angeles International Airport",
+              "departure": "2026-11-24T14:47",
+              "arrival": "2026-11-24T16:10",
+              "durationMinutes": 83,
+              "airlineCode": "DL",
+              "airline": "Delta",
+              "flightNumber": "DL 1715",
+              "aircraft": "Boeing 737",
+              "legroom": "31 inches",
+              "emissionsGrams": 74817
+            },
+            {
+              "from": "LAX",
+              "fromName": "Los Angeles International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-24T17:15",
+              "arrival": "2026-11-24T21:04",
+              "durationMinutes": 349,
+              "airlineCode": "DL",
+              "airline": "Delta",
+              "flightNumber": "DL 443",
+              "aircraft": "Boeing 767",
+              "legroom": "31 inches",
+              "emissionsGrams": 209601
+            }
+          ],
+          "emissionsGrams": 284000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -14,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjRqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-25",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 172,
+          "airlines": [
+            "Delta"
+          ],
+          "airlineCode": "DL",
+          "flightNumbers": [
+            "DL 1715",
+            "DL 443"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-25T14:47",
+          "arrival": "2026-11-25T21:04",
+          "durationMinutes": 497,
+          "stops": 1,
+          "layovers": [
+            {
+              "durationMinutes": 65,
+              "airport": "LAX",
+              "airportName": "Los Angeles International Airport",
+              "city": "Los Angeles"
+            }
+          ],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "LAX",
+              "toName": "Los Angeles International Airport",
+              "departure": "2026-11-25T14:47",
+              "arrival": "2026-11-25T16:10",
+              "durationMinutes": 83,
+              "airlineCode": "DL",
+              "airline": "Delta",
+              "flightNumber": "DL 1715",
+              "aircraft": "Boeing 737",
+              "legroom": "31 inches",
+              "emissionsGrams": 74817
+            },
+            {
+              "from": "LAX",
+              "fromName": "Los Angeles International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-25T17:15",
+              "arrival": "2026-11-25T21:04",
+              "durationMinutes": 349,
+              "airlineCode": "DL",
+              "airline": "Delta",
+              "flightNumber": "DL 443",
+              "aircraft": "Boeing 767",
+              "legroom": "31 inches",
+              "emissionsGrams": 209601
+            }
+          ],
+          "emissionsGrams": 284000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -14,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjVqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-26",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 239,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 1175"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-26T09:20",
+          "arrival": "2026-11-26T12:54",
+          "durationMinutes": 334,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-26T09:20",
+              "arrival": "2026-11-26T12:54",
+              "durationMinutes": 334,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 1175",
+              "aircraft": "Boeing 777",
+              "legroom": "31 inches",
+              "emissionsGrams": 239744
+            }
+          ],
+          "emissionsGrams": 240000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -28,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjZqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-27",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 269,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-27T07:20",
+          "arrival": "2026-11-27T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-27T07:20",
+              "arrival": "2026-11-27T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjdqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-29",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 223,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-29T07:20",
+          "arrival": "2026-11-29T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-29T07:20",
+              "arrival": "2026-11-29T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjlqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-30",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 163,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 811"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-30T07:20",
+          "arrival": "2026-11-30T11:10",
+          "durationMinutes": 350,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-30T07:20",
+              "arrival": "2026-11-30T11:10",
+              "durationMinutes": 350,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 811",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 257079
+            }
+          ],
+          "emissionsGrams": 257000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -23,
+          "isCheapest": true,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "low",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMzBqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-21",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 413,
+          "airlines": [
+            "Alaska"
+          ],
+          "airlineCode": "AS",
+          "flightNumbers": [
+            "AS 1610",
+            "AS 809"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-21T15:07",
+          "arrival": "2026-11-21T21:12",
+          "durationMinutes": 485,
+          "stops": 1,
+          "layovers": [
+            {
+              "durationMinutes": 38,
+              "airport": "LAX",
+              "airportName": "Los Angeles International Airport",
+              "city": "Los Angeles"
+            }
+          ],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "LAX",
+              "toName": "Los Angeles International Airport",
+              "departure": "2026-11-21T15:07",
+              "arrival": "2026-11-21T16:32",
+              "durationMinutes": 85,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 1610",
+              "aircraft": "Boeing 737",
+              "legroom": "31 inches",
+              "emissionsGrams": 69137
+            },
+            {
+              "from": "LAX",
+              "fromName": "Los Angeles International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-21T17:10",
+              "arrival": "2026-11-21T21:12",
+              "durationMinutes": 362,
+              "airlineCode": "AS",
+              "airline": "Alaska",
+              "flightNumber": "AS 809",
+              "aircraft": "Airbus A330",
+              "legroom": "31 inches",
+              "emissionsGrams": 252662
+            }
+          ],
+          "emissionsGrams": 322000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -3,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjFqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        },
+        {
+          "route": "SFO-HNL",
+          "tripType": "one-way",
+          "searchDepartureDate": "2026-11-28",
+          "searchReturnDate": null,
+          "rank": 1,
+          "isBest": true,
+          "price": 269,
+          "airlines": [
+            "United"
+          ],
+          "airlineCode": "UA",
+          "flightNumbers": [
+            "UA 2318"
+          ],
+          "from": "SFO",
+          "to": "HNL",
+          "departure": "2026-11-28T07:15",
+          "arrival": "2026-11-28T11:03",
+          "durationMinutes": 348,
+          "stops": 0,
+          "layovers": [],
+          "segments": [
+            {
+              "from": "SFO",
+              "fromName": "San Francisco International Airport",
+              "to": "HNL",
+              "toName": "Daniel K. Inouye International Airport",
+              "departure": "2026-11-28T07:15",
+              "arrival": "2026-11-28T11:03",
+              "durationMinutes": 348,
+              "airlineCode": "UA",
+              "airline": "United",
+              "flightNumber": "UA 2318",
+              "aircraft": "Boeing 737MAX 9 Passenger",
+              "legroom": "30 inches",
+              "emissionsGrams": 245391
+            }
+          ],
+          "emissionsGrams": 245000,
+          "typicalEmissionsGrams": 332000,
+          "emissionsVsTypicalPct": -26,
+          "isCheapest": false,
+          "currency": "USD",
+          "cabinClass": "economy",
+          "passengers": 1,
+          "priceLevel": "typical",
+          "typicalPriceLow": 219,
+          "typicalPriceHigh": 305,
+          "googleFlightsUrl": "https://www.google.com/travel/flights/search?tfs=GhoSCjIwMjYtMTEtMjhqBRIDU0ZPcgUSA0hOTEABSAGYAQI&hl=en&gl=us&curr=USD",
+          "scrapedAt": "2026-10-02T20:59:26.473Z"
+        }
+      ],
+      "itemCount": 30,
+      "totalItemCount": 30,
+      "offset": 0,
+      "limit": 50,
+      "summary": "Fetched all 30 items.",
+      "nextStep": "No more pages. Inspect the returned items directly."
+    },
+    "isError": false
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

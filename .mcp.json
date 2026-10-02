@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "apify": {
+      "type": "http",
+      "url": "https://mcp.apify.com/?tools=kuezi/google-flights-scraper",
+      "headers": { "Authorization": "Bearer ${APIFY_TOKEN}" }
+    }
+  }
+}

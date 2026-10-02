@@ -1,0 +1,9 @@
+{
+  "name": "apify-flights-agent",
+  "version": "1.0.0",
+  "description": "Make an Apify Actor answer an AI agent in one MCP tool call: probe script, Claude Code config and the summary module from the Google Flights Scraper.",
+  "type": "module",
+  "scripts": { "test": "node --test test/" },
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}

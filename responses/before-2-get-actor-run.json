@@ -1,0 +1,120 @@
+{
+  "result": {
+    "_meta": {
+      "com.apify/ActorRun": {
+        "usageTotalUsd": 0.06509447113178836,
+        "usageUsd": {
+          "ACTOR_COMPUTE_UNITS": 0.0017950277777777778,
+          "DATASET_READS": 0,
+          "DATASET_WRITES": 0.00015000000000000001,
+          "KEY_VALUE_STORE_READS": 5e-06,
+          "KEY_VALUE_STORE_WRITES": 0.0001,
+          "KEY_VALUE_STORE_LISTS": 0,
+          "REQUEST_QUEUE_READS": 0,
+          "REQUEST_QUEUE_WRITES": 0,
+          "DATA_TRANSFER_INTERNAL_GBYTES": 0.00039864424616098404,
+          "DATA_TRANSFER_EXTERNAL_GBYTES": 5.786735564470292e-05,
+          "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0.0625879317522049,
+          "PROXY_SERPS": 0,
+          "PROXY_UNBLOCKER_UNITS": 0
+        }
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"runId\":\"RUN_ID_BEFORE\",\"actorId\":\"codNzEhXfF2sgw5PH\",\"actorName\":\"kuezi/google-flights-scraper\",\"status\":\"SUCCEEDED\",\"statusMessage\":\"Saved 30 flights from 30/30 searches. Cheapest: SFO-HNL 163 USD on 2026-11-01.\",\"exitCode\":0,\"startedAt\":\"2026-10-02T20:59:23.176Z\",\"finishedAt\":\"2026-10-02T21:00:28.037Z\",\"stats\":{\"runTimeSecs\":64.621,\"computeUnits\":0.008975138888888888,\"memMaxBytes\":240504832},\"storages\":{\"datasets\":{\"default\":{\"id\":\"DATASET_ID_BEFORE\",\"itemCount\":30,\"inflatedBytes\":35522,\"fields\":[\"isBest\",\"isCheapest\",\"searchReturnDate\",\"durationMinutes\",\"emissionsGrams\",\"emissionsVsTypicalPct\",\"passengers\",\"price\",\"rank\",\"stops\",\"typicalEmissionsGrams\",\"typicalPriceHigh\",\"typicalPriceLow\",\"airlineCode\",\"arrival\",\"cabinClass\",\"currency\",\"departure\",\"from\",\"googleFlightsUrl\",\"priceLevel\",\"route\",\"scrapedAt\",\"searchDepartureDate\",\"to\",\"tripType\",\"airlines\",\"flightNumbers\",\"layovers.durationMinutes\",\"layovers.airport\",\"layovers.airportName\",\"layovers.city\",\"segments.durationMinutes\",\"segments.emissionsGrams\",\"segments.aircraft\",\"segments.airline\",\"segments.airlineCode\",\"segments.arrival\",\"segments.departure\",\"segments.flightNumber\",\"segments.from\",\"segments.fromName\",\"segments.legroom\",\"segments.to\",\"segments.toName\"]}},\"keyValueStores\":{\"default\":{\"id\":\"KV_STORE_ID_BEFORE\",\"keys\":[\"INPUT\",\"SUMMARY\"],\"keyCount\":2}}},\"summary\":\"SUCCEEDED in 64.621s. 30 items; 45 fields available. Key-value store has 1 key.\",\"nextStep\":\"Use get-dataset-items with datasetId=DATASET_ID_BEFORE and limit (for example 20) to fetch items (30 total). Full output is ~35522 bytes. Available fields (dot notation): isBest, isCheapest, searchReturnDate, durationMinutes, emissionsGrams, emissionsVsTypicalPct, passengers, price, rank, stops, typicalEmissionsGrams, typicalPriceHigh, typicalPriceLow, airlineCode, arrival, cabinClass, currency, departure, from, googleFlightsUrl, priceLevel, route, scrapedAt, searchDepartureDate, to, tripType, airlines, flightNumbers, layovers.durationMinutes, layovers.airport, layovers.airportName, layovers.city, segments.durationMinutes, segments.emissionsGrams, segments.aircraft, segments.airline, segments.airlineCode, segments.arrival, segments.departure, segments.flightNumber, segments.from, segments.fromName, segments.legroom, segments.to, segments.toName — pass via fields=\\\"...\\\" to project.\"}"
+      },
+      {
+        "type": "text",
+        "text": "SUCCEEDED in 64.621s. 30 items; 45 fields available. Key-value store has 1 key.\nUse get-dataset-items with datasetId=DATASET_ID_BEFORE and limit (for example 20) to fetch items (30 total). Full output is ~35522 bytes. Available fields (dot notation): isBest, isCheapest, searchReturnDate, durationMinutes, emissionsGrams, emissionsVsTypicalPct, passengers, price, rank, stops, typicalEmissionsGrams, typicalPriceHigh, typicalPriceLow, airlineCode, arrival, cabinClass, currency, departure, from, googleFlightsUrl, priceLevel, route, scrapedAt, searchDepartureDate, to, tripType, airlines, flightNumbers, layovers.durationMinutes, layovers.airport, layovers.airportName, layovers.city, segments.durationMinutes, segments.emissionsGrams, segments.aircraft, segments.airline, segments.airlineCode, segments.arrival, segments.departure, segments.flightNumber, segments.from, segments.fromName, segments.legroom, segments.to, segments.toName — pass via fields=\"...\" to project."
+      }
+    ],
+    "structuredContent": {
+      "runId": "RUN_ID_BEFORE",
+      "actorId": "codNzEhXfF2sgw5PH",
+      "actorName": "kuezi/google-flights-scraper",
+      "status": "SUCCEEDED",
+      "statusMessage": "Saved 30 flights from 30/30 searches. Cheapest: SFO-HNL 163 USD on 2026-11-01.",
+      "exitCode": 0,
+      "startedAt": "2026-10-02T20:59:23.176Z",
+      "finishedAt": "2026-10-02T21:00:28.037Z",
+      "stats": {
+        "runTimeSecs": 64.621,
+        "computeUnits": 0.008975138888888888,
+        "memMaxBytes": 240504832
+      },
+      "storages": {
+        "datasets": {
+          "default": {
+            "id": "DATASET_ID_BEFORE",
+            "itemCount": 30,
+            "inflatedBytes": 35522,
+            "fields": [
+              "isBest",
+              "isCheapest",
+              "searchReturnDate",
+              "durationMinutes",
+              "emissionsGrams",
+              "emissionsVsTypicalPct",
+              "passengers",
+              "price",
+              "rank",
+              "stops",
+              "typicalEmissionsGrams",
+              "typicalPriceHigh",
+              "typicalPriceLow",
+              "airlineCode",
+              "arrival",
+              "cabinClass",
+              "currency",
+              "departure",
+              "from",
+              "googleFlightsUrl",
+              "priceLevel",
+              "route",
+              "scrapedAt",
+              "searchDepartureDate",
+              "to",
+              "tripType",
+              "airlines",
+              "flightNumbers",
+              "layovers.durationMinutes",
+              "layovers.airport",
+              "layovers.airportName",
+              "layovers.city",
+              "segments.durationMinutes",
+              "segments.emissionsGrams",
+              "segments.aircraft",
+              "segments.airline",
+              "segments.airlineCode",
+              "segments.arrival",
+              "segments.departure",
+              "segments.flightNumber",
+              "segments.from",
+              "segments.fromName",
+              "segments.legroom",
+              "segments.to",
+              "segments.toName"
+            ]
+          }
+        },
+        "keyValueStores": {
+          "default": {
+            "id": "KV_STORE_ID_BEFORE",
+            "keys": [
+              "INPUT",
+              "SUMMARY"
+            ],
+            "keyCount": 2
+          }
+        }
+      },
+      "summary": "SUCCEEDED in 64.621s. 30 items; 45 fields available. Key-value store has 1 key.",
+      "nextStep": "Use get-dataset-items with datasetId=DATASET_ID_BEFORE and limit (for example 20) to fetch items (30 total). Full output is ~35522 bytes. Available fields (dot notation): isBest, isCheapest, searchReturnDate, durationMinutes, emissionsGrams, emissionsVsTypicalPct, passengers, price, rank, stops, typicalEmissionsGrams, typicalPriceHigh, typicalPriceLow, airlineCode, arrival, cabinClass, currency, departure, from, googleFlightsUrl, priceLevel, route, scrapedAt, searchDepartureDate, to, tripType, airlines, flightNumbers, layovers.durationMinutes, layovers.airport, layovers.airportName, layovers.city, segments.durationMinutes, segments.emissionsGrams, segments.aircraft, segments.airline, segments.airlineCode, segments.arrival, segments.departure, segments.flightNumber, segments.from, segments.fromName, segments.legroom, segments.to, segments.toName — pass via fields=\"...\" to project."
+    },
+    "isError": false
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

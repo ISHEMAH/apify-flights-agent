@@ -1,0 +1,120 @@
+{
+  "result": {
+    "_meta": {
+      "com.apify/ActorRun": {
+        "usageTotalUsd": 0.029858745164935786,
+        "usageUsd": {
+          "ACTOR_COMPUTE_UNITS": 0.00041180555555555556,
+          "DATASET_READS": 0,
+          "DATASET_WRITES": 0.000115,
+          "KEY_VALUE_STORE_READS": 5e-06,
+          "KEY_VALUE_STORE_WRITES": 5e-05,
+          "KEY_VALUE_STORE_LISTS": 0,
+          "REQUEST_QUEUE_READS": 0,
+          "REQUEST_QUEUE_WRITES": 0,
+          "DATA_TRANSFER_INTERNAL_GBYTES": 0.00018336581997573377,
+          "DATA_TRANSFER_EXTERNAL_GBYTES": 6.190668791532517e-05,
+          "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0.029156461358070374,
+          "PROXY_SERPS": 0,
+          "PROXY_UNBLOCKER_UNITS": 0
+        }
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"runId\":\"0KXARd4MNuv5OI8lV\",\"actorId\":\"codNzEhXfF2sgw5PH\",\"actorName\":\"kuezi/google-flights-scraper\",\"status\":\"SUCCEEDED\",\"statusMessage\":\"Saved 30 flights from 30/30 searches. LAX-NRT (30 days): cheapest 329 USD on Wed 2026-11-25, priciest 823 on Fri 2026-11-20, median 429. Day-by-day prices: SUMMARY record.\",\"exitCode\":0,\"startedAt\":\"2026-10-02T21:05:07.942Z\",\"finishedAt\":\"2026-10-02T21:05:23.000Z\",\"stats\":{\"runTimeSecs\":14.825,\"computeUnits\":0.0020590277777777777,\"memMaxBytes\":226156544},\"storages\":{\"datasets\":{\"default\":{\"id\":\"EtT1RyLODLLTeZPPy\",\"itemCount\":28,\"inflatedBytes\":33323,\"fields\":[\"route\",\"tripType\",\"searchDepartureDate\",\"searchReturnDate\",\"rank\",\"isBest\",\"price\",\"airlineCode\",\"from\",\"to\",\"departure\",\"arrival\",\"durationMinutes\",\"stops\",\"emissionsGrams\",\"typicalEmissionsGrams\",\"emissionsVsTypicalPct\",\"isCheapest\",\"currency\",\"cabinClass\",\"passengers\",\"priceLevel\",\"typicalPriceLow\",\"typicalPriceHigh\",\"googleFlightsUrl\",\"scrapedAt\",\"airlines\",\"flightNumbers\",\"segments.from\",\"segments.fromName\",\"segments.to\",\"segments.toName\",\"segments.departure\",\"segments.arrival\",\"segments.durationMinutes\",\"segments.airlineCode\",\"segments.airline\",\"segments.flightNumber\",\"segments.aircraft\",\"segments.legroom\",\"segments.emissionsGrams\",\"layovers.durationMinutes\",\"layovers.airport\",\"layovers.airportName\",\"layovers.city\"]}},\"keyValueStores\":{\"default\":{\"id\":\"pEWhQ4GNUld5w6cbD\",\"keys\":[\"INPUT\",\"SUMMARY\"],\"keyCount\":2}}},\"summary\":\"SUCCEEDED in 14.825s. 28 items; 45 fields available. Key-value store has 1 key.\",\"nextStep\":\"Use get-dataset-items with datasetId=EtT1RyLODLLTeZPPy and limit (for example 20) to fetch items (28 total). Full output is ~33323 bytes. Available fields (dot notation): route, tripType, searchDepartureDate, searchReturnDate, rank, isBest, price, airlineCode, from, to, departure, arrival, durationMinutes, stops, emissionsGrams, typicalEmissionsGrams, emissionsVsTypicalPct, isCheapest, currency, cabinClass, passengers, priceLevel, typicalPriceLow, typicalPriceHigh, googleFlightsUrl, scrapedAt, airlines, flightNumbers, segments.from, segments.fromName, segments.to, segments.toName, segments.departure, segments.arrival, segments.durationMinutes, segments.airlineCode, segments.airline, segments.flightNumber, segments.aircraft, segments.legroom, segments.emissionsGrams, layovers.durationMinutes, layovers.airport, layovers.airportName, layovers.city — pass via fields=\\\"...\\\" to project.\"}"
+      },
+      {
+        "type": "text",
+        "text": "SUCCEEDED in 14.825s. 28 items; 45 fields available. Key-value store has 1 key.\nUse get-dataset-items with datasetId=EtT1RyLODLLTeZPPy and limit (for example 20) to fetch items (28 total). Full output is ~33323 bytes. Available fields (dot notation): route, tripType, searchDepartureDate, searchReturnDate, rank, isBest, price, airlineCode, from, to, departure, arrival, durationMinutes, stops, emissionsGrams, typicalEmissionsGrams, emissionsVsTypicalPct, isCheapest, currency, cabinClass, passengers, priceLevel, typicalPriceLow, typicalPriceHigh, googleFlightsUrl, scrapedAt, airlines, flightNumbers, segments.from, segments.fromName, segments.to, segments.toName, segments.departure, segments.arrival, segments.durationMinutes, segments.airlineCode, segments.airline, segments.flightNumber, segments.aircraft, segments.legroom, segments.emissionsGrams, layovers.durationMinutes, layovers.airport, layovers.airportName, layovers.city — pass via fields=\"...\" to project."
+      }
+    ],
+    "structuredContent": {
+      "runId": "0KXARd4MNuv5OI8lV",
+      "actorId": "codNzEhXfF2sgw5PH",
+      "actorName": "kuezi/google-flights-scraper",
+      "status": "SUCCEEDED",
+      "statusMessage": "Saved 30 flights from 30/30 searches. LAX-NRT (30 days): cheapest 329 USD on Wed 2026-11-25, priciest 823 on Fri 2026-11-20, median 429. Day-by-day prices: SUMMARY record.",
+      "exitCode": 0,
+      "startedAt": "2026-10-02T21:05:07.942Z",
+      "finishedAt": "2026-10-02T21:05:23.000Z",
+      "stats": {
+        "runTimeSecs": 14.825,
+        "computeUnits": 0.0020590277777777777,
+        "memMaxBytes": 226156544
+      },
+      "storages": {
+        "datasets": {
+          "default": {
+            "id": "EtT1RyLODLLTeZPPy",
+            "itemCount": 28,
+            "inflatedBytes": 33323,
+            "fields": [
+              "route",
+              "tripType",
+              "searchDepartureDate",
+              "searchReturnDate",
+              "rank",
+              "isBest",
+              "price",
+              "airlineCode",
+              "from",
+              "to",
+              "departure",
+              "arrival",
+              "durationMinutes",
+              "stops",
+              "emissionsGrams",
+              "typicalEmissionsGrams",
+              "emissionsVsTypicalPct",
+              "isCheapest",
+              "currency",
+              "cabinClass",
+              "passengers",
+              "priceLevel",
+              "typicalPriceLow",
+              "typicalPriceHigh",
+              "googleFlightsUrl",
+              "scrapedAt",
+              "airlines",
+              "flightNumbers",
+              "segments.from",
+              "segments.fromName",
+              "segments.to",
+              "segments.toName",
+              "segments.departure",
+              "segments.arrival",
+              "segments.durationMinutes",
+              "segments.airlineCode",
+              "segments.airline",
+              "segments.flightNumber",
+              "segments.aircraft",
+              "segments.legroom",
+              "segments.emissionsGrams",
+              "layovers.durationMinutes",
+              "layovers.airport",
+              "layovers.airportName",
+              "layovers.city"
+            ]
+          }
+        },
+        "keyValueStores": {
+          "default": {
+            "id": "pEWhQ4GNUld5w6cbD",
+            "keys": [
+              "INPUT",
+              "SUMMARY"
+            ],
+            "keyCount": 2
+          }
+        }
+      },
+      "summary": "SUCCEEDED in 14.825s. 28 items; 45 fields available. Key-value store has 1 key.",
+      "nextStep": "Use get-dataset-items with datasetId=EtT1RyLODLLTeZPPy and limit (for example 20) to fetch items (28 total). Full output is ~33323 bytes. Available fields (dot notation): route, tripType, searchDepartureDate, searchReturnDate, rank, isBest, price, airlineCode, from, to, departure, arrival, durationMinutes, stops, emissionsGrams, typicalEmissionsGrams, emissionsVsTypicalPct, isCheapest, currency, cabinClass, passengers, priceLevel, typicalPriceLow, typicalPriceHigh, googleFlightsUrl, scrapedAt, airlines, flightNumbers, segments.from, segments.fromName, segments.to, segments.toName, segments.departure, segments.arrival, segments.durationMinutes, segments.airlineCode, segments.airline, segments.flightNumber, segments.aircraft, segments.legroom, segments.emissionsGrams, layovers.durationMinutes, layovers.airport, layovers.airportName, layovers.city — pass via fields=\"...\" to project."
+    },
+    "isError": false
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

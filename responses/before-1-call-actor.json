@@ -1,0 +1,110 @@
+{
+  "result": {
+    "_meta": {
+      "com.apify/ActorRun": {
+        "usageTotalUsd": 5e-05,
+        "usageUsd": {
+          "ACTOR_COMPUTE_UNITS": 0,
+          "DATASET_READS": 0,
+          "DATASET_WRITES": 0,
+          "KEY_VALUE_STORE_READS": 0,
+          "KEY_VALUE_STORE_WRITES": 5e-05,
+          "KEY_VALUE_STORE_LISTS": 0,
+          "REQUEST_QUEUE_READS": 0,
+          "REQUEST_QUEUE_WRITES": 0,
+          "DATA_TRANSFER_INTERNAL_GBYTES": 0,
+          "DATA_TRANSFER_EXTERNAL_GBYTES": 0,
+          "PROXY_RESIDENTIAL_TRANSFER_GBYTES": 0,
+          "PROXY_SERPS": 0,
+          "PROXY_UNBLOCKER_UNITS": 0
+        }
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"runId\":\"RUN_ID_BEFORE\",\"actorId\":\"codNzEhXfF2sgw5PH\",\"actorName\":\"kuezi/google-flights-scraper\",\"status\":\"RUNNING\",\"startedAt\":\"2026-10-02T20:59:23.176Z\",\"stats\":{\"computeUnits\":0},\"storages\":{\"datasets\":{\"default\":{\"id\":\"DATASET_ID_BEFORE\",\"itemCount\":17,\"inflatedBytes\":18812,\"fields\":[\"route\",\"tripType\",\"searchDepartureDate\",\"searchReturnDate\",\"rank\",\"isBest\",\"price\",\"airlineCode\",\"from\",\"to\",\"departure\",\"arrival\",\"durationMinutes\",\"stops\",\"emissionsGrams\",\"typicalEmissionsGrams\",\"emissionsVsTypicalPct\",\"isCheapest\",\"currency\",\"cabinClass\",\"passengers\",\"priceLevel\",\"typicalPriceLow\",\"typicalPriceHigh\",\"googleFlightsUrl\",\"scrapedAt\",\"airlines\",\"flightNumbers\",\"segments.from\",\"segments.fromName\",\"segments.to\",\"segments.toName\",\"segments.departure\",\"segments.arrival\",\"segments.durationMinutes\",\"segments.airlineCode\",\"segments.airline\",\"segments.flightNumber\",\"segments.aircraft\",\"segments.legroom\",\"segments.emissionsGrams\",\"layovers.durationMinutes\",\"layovers.airport\",\"layovers.airportName\",\"layovers.city\"]}},\"keyValueStores\":{\"default\":{\"id\":\"KV_STORE_ID_BEFORE\"}}},\"summary\":\"RUNNING for 31s. In progress. 17 results so far.\",\"nextStep\":\"Use get-actor-run with runId=RUN_ID_BEFORE and waitSecs=30 to poll for completion.\"}"
+      },
+      {
+        "type": "text",
+        "text": "RUNNING for 31s. In progress. 17 results so far.\nUse get-actor-run with runId=RUN_ID_BEFORE and waitSecs=30 to poll for completion."
+      }
+    ],
+    "structuredContent": {
+      "runId": "RUN_ID_BEFORE",
+      "actorId": "codNzEhXfF2sgw5PH",
+      "actorName": "kuezi/google-flights-scraper",
+      "status": "RUNNING",
+      "startedAt": "2026-10-02T20:59:23.176Z",
+      "stats": {
+        "computeUnits": 0
+      },
+      "storages": {
+        "datasets": {
+          "default": {
+            "id": "DATASET_ID_BEFORE",
+            "itemCount": 17,
+            "inflatedBytes": 18812,
+            "fields": [
+              "route",
+              "tripType",
+              "searchDepartureDate",
+              "searchReturnDate",
+              "rank",
+              "isBest",
+              "price",
+              "airlineCode",
+              "from",
+              "to",
+              "departure",
+              "arrival",
+              "durationMinutes",
+              "stops",
+              "emissionsGrams",
+              "typicalEmissionsGrams",
+              "emissionsVsTypicalPct",
+              "isCheapest",
+              "currency",
+              "cabinClass",
+              "passengers",
+              "priceLevel",
+              "typicalPriceLow",
+              "typicalPriceHigh",
+              "googleFlightsUrl",
+              "scrapedAt",
+              "airlines",
+              "flightNumbers",
+              "segments.from",
+              "segments.fromName",
+              "segments.to",
+              "segments.toName",
+              "segments.departure",
+              "segments.arrival",
+              "segments.durationMinutes",
+              "segments.airlineCode",
+              "segments.airline",
+              "segments.flightNumber",
+              "segments.aircraft",
+              "segments.legroom",
+              "segments.emissionsGrams",
+              "layovers.durationMinutes",
+              "layovers.airport",
+              "layovers.airportName",
+              "layovers.city"
+            ]
+          }
+        },
+        "keyValueStores": {
+          "default": {
+            "id": "KV_STORE_ID_BEFORE"
+          }
+        }
+      },
+      "summary": "RUNNING for 31s. In progress. 17 results so far.",
+      "nextStep": "Use get-actor-run with runId=RUN_ID_BEFORE and waitSecs=30 to poll for completion."
+    },
+    "isError": false
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

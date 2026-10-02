@@ -1,0 +1,148 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"datasetId\":\"DATASET_ID_BEFORE\",\"items\":[{\"searchDepartureDate\":\"2026-11-02\",\"price\":163},{\"searchDepartureDate\":\"2026-11-01\",\"price\":163},{\"searchDepartureDate\":\"2026-11-03\",\"price\":163},{\"searchDepartureDate\":\"2026-11-04\",\"price\":163},{\"searchDepartureDate\":\"2026-11-06\",\"price\":269},{\"searchDepartureDate\":\"2026-11-07\",\"price\":269},{\"searchDepartureDate\":\"2026-11-08\",\"price\":163},{\"searchDepartureDate\":\"2026-11-09\",\"price\":163},{\"searchDepartureDate\":\"2026-11-05\",\"price\":239},{\"searchDepartureDate\":\"2026-11-12\",\"price\":239},{\"searchDepartureDate\":\"2026-11-10\",\"price\":163},{\"searchDepartureDate\":\"2026-11-13\",\"price\":269},{\"searchDepartureDate\":\"2026-11-14\",\"price\":269},{\"searchDepartureDate\":\"2026-11-15\",\"price\":163},{\"searchDepartureDate\":\"2026-11-11\",\"price\":163},{\"searchDepartureDate\":\"2026-11-17\",\"price\":163},{\"searchDepartureDate\":\"2026-11-16\",\"price\":163},{\"searchDepartureDate\":\"2026-11-19\",\"price\":323},{\"searchDepartureDate\":\"2026-11-20\",\"price\":444},{\"searchDepartureDate\":\"2026-11-22\",\"price\":313},{\"searchDepartureDate\":\"2026-11-18\",\"price\":283},{\"searchDepartureDate\":\"2026-11-23\",\"price\":228},{\"searchDepartureDate\":\"2026-11-24\",\"price\":172},{\"searchDepartureDate\":\"2026-11-25\",\"price\":172},{\"searchDepartureDate\":\"2026-11-26\",\"price\":239},{\"searchDepartureDate\":\"2026-11-27\",\"price\":269},{\"searchDepartureDate\":\"2026-11-29\",\"price\":223},{\"searchDepartureDate\":\"2026-11-30\",\"price\":163},{\"searchDepartureDate\":\"2026-11-21\",\"price\":413},{\"searchDepartureDate\":\"2026-11-28\",\"price\":269}],\"itemCount\":30,\"totalItemCount\":30,\"offset\":0,\"limit\":50}"
+      },
+      {
+        "type": "text",
+        "text": "Fetched all 30 items.\nNo more pages. Inspect the returned items directly."
+      }
+    ],
+    "structuredContent": {
+      "datasetId": "DATASET_ID_BEFORE",
+      "items": [
+        {
+          "searchDepartureDate": "2026-11-02",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-01",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-03",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-04",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-06",
+          "price": 269
+        },
+        {
+          "searchDepartureDate": "2026-11-07",
+          "price": 269
+        },
+        {
+          "searchDepartureDate": "2026-11-08",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-09",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-05",
+          "price": 239
+        },
+        {
+          "searchDepartureDate": "2026-11-12",
+          "price": 239
+        },
+        {
+          "searchDepartureDate": "2026-11-10",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-13",
+          "price": 269
+        },
+        {
+          "searchDepartureDate": "2026-11-14",
+          "price": 269
+        },
+        {
+          "searchDepartureDate": "2026-11-15",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-11",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-17",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-16",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-19",
+          "price": 323
+        },
+        {
+          "searchDepartureDate": "2026-11-20",
+          "price": 444
+        },
+        {
+          "searchDepartureDate": "2026-11-22",
+          "price": 313
+        },
+        {
+          "searchDepartureDate": "2026-11-18",
+          "price": 283
+        },
+        {
+          "searchDepartureDate": "2026-11-23",
+          "price": 228
+        },
+        {
+          "searchDepartureDate": "2026-11-24",
+          "price": 172
+        },
+        {
+          "searchDepartureDate": "2026-11-25",
+          "price": 172
+        },
+        {
+          "searchDepartureDate": "2026-11-26",
+          "price": 239
+        },
+        {
+          "searchDepartureDate": "2026-11-27",
+          "price": 269
+        },
+        {
+          "searchDepartureDate": "2026-11-29",
+          "price": 223
+        },
+        {
+          "searchDepartureDate": "2026-11-30",
+          "price": 163
+        },
+        {
+          "searchDepartureDate": "2026-11-21",
+          "price": 413
+        },
+        {
+          "searchDepartureDate": "2026-11-28",
+          "price": 269
+        }
+      ],
+      "itemCount": 30,
+      "totalItemCount": 30,
+      "offset": 0,
+      "limit": 50,
+      "summary": "Fetched all 30 items.",
+      "nextStep": "No more pages. Inspect the returned items directly."
+    },
+    "isError": false
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

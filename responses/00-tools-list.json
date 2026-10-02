@@ -1,0 +1,1211 @@
+{
+  "result": {
+    "tools": [
+      {
+        "name": "get-actor-run",
+        "title": "Get Actor run",
+        "description": "Get detailed information about a specific Actor run.\n\nReturns run result: status, storages (datasets/keyValueStores alias map), stats, summary, nextStep.\n- summary describes the past (e.g. \"SUCCEEDED in 22s. 47 items; 3 fields available.\").\n- nextStep prescribes one primary follow-up action with identifiers interpolated (e.g. \"Use get-dataset-items with datasetId=...\").\n- waitSecs (0–45, default 30) waits up to that many seconds for terminal status before returning.\n\nUSAGE:\n- Use to check the status of a run started by any Actor-running tool.\n- Pass waitSecs > 0 to block until terminal (or until the cap elapses).\n\nUSAGE EXAMPLES:\n- user_input: Show details of run y2h7sK3Wc\n- user_input: Wait for run y2h7sK3Wc to finish",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "runId": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The ID of the Actor run."
+            },
+            "waitSecs": {
+              "default": 30,
+              "description": "Maximum seconds to wait for the run to reach a terminal state (SUCCEEDED, FAILED, ABORTED, TIMED-OUT).\n0 returns immediately with the current status. Cap: 45. Default: 30.",
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 45
+            }
+          },
+          "required": [
+            "runId"
+          ],
+          "additionalProperties": false
+        },
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "runId": {
+              "type": "string",
+              "description": "Actor run ID"
+            },
+            "apifyConsoleUrl": {
+              "type": "string",
+              "description": "Personalized Apify Console link to the run; present only for Console sessions"
+            },
+            "actorId": {
+              "type": "string",
+              "description": "Stable Apify Actor ID from the run record"
+            },
+            "actorName": {
+              "type": "string",
+              "description": "\"username/actor-name\""
+            },
+            "status": {
+              "type": "string",
+              "description": "Run status: READY | RUNNING | TIMING-OUT | TIMED-OUT | ABORTING | ABORTED | SUCCEEDED | FAILED"
+            },
+            "statusMessage": {
+              "type": "string",
+              "description": "Pass-through from Apify run.statusMessage"
+            },
+            "exitCode": {
+              "type": "number",
+              "description": "Actor process exit code; populated for terminal states (especially FAILED)"
+            },
+            "startedAt": {
+              "type": "string",
+              "description": "ISO timestamp when the run started"
+            },
+            "finishedAt": {
+              "type": "string",
+              "description": "ISO timestamp when the run finished (terminal states only)"
+            },
+            "stats": {
+              "type": "object",
+              "description": "Run statistics",
+              "properties": {
+                "runTimeSecs": {
+                  "type": "number"
+                },
+                "computeUnits": {
+                  "type": "number"
+                },
+                "memMaxBytes": {
+                  "type": "number"
+                }
+              }
+            },
+            "storages": {
+              "type": "object",
+              "description": "Dataset and key-value store metadata, keyed by alias. \"default\" is always the primary entry.",
+              "properties": {
+                "datasets": {
+                  "type": "object",
+                  "description": "Map of dataset alias → metadata. Key \"default\" is always the run's primary dataset.",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Dataset ID"
+                        },
+                        "apifyConsoleUrl": {
+                          "type": "string",
+                          "description": "Personalized Apify Console link to the dataset; present only for Console sessions"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "itemCount": {
+                          "type": "number"
+                        },
+                        "inflatedBytes": {
+                          "type": "number",
+                          "description": "Approximate uncompressed byte size of the dataset. Use with itemCount to pick limit/fields before fetching."
+                        },
+                        "fields": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Dataset field paths in dot notation (e.g. [\"metadata.url\"])"
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "default"
+                  ],
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Dataset ID"
+                      },
+                      "apifyConsoleUrl": {
+                        "type": "string",
+                        "description": "Personalized Apify Console link to the dataset; present only for Console sessions"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "itemCount": {
+                        "type": "number"
+                      },
+                      "inflatedBytes": {
+                        "type": "number",
+                        "description": "Approximate uncompressed byte size of the dataset. Use with itemCount to pick limit/fields before fetching."
+                      },
+                      "fields": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Dataset field paths in dot notation (e.g. [\"metadata.url\"])"
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ]
+                  }
+                },
+                "keyValueStores": {
+                  "type": "object",
+                  "description": "Map of key-value store alias → metadata. Key \"default\" is always the run's primary store.",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Key-value store ID"
+                        },
+                        "apifyConsoleUrl": {
+                          "type": "string",
+                          "description": "Personalized Apify Console link to the store; present only for Console sessions"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "keyCount": {
+                          "type": "number",
+                          "description": "Total number of keys (omitted when truncated)"
+                        },
+                        "keys": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Up to 50 key names"
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "default"
+                  ],
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Key-value store ID"
+                      },
+                      "apifyConsoleUrl": {
+                        "type": "string",
+                        "description": "Personalized Apify Console link to the store; present only for Console sessions"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "keyCount": {
+                        "type": "number",
+                        "description": "Total number of keys (omitted when truncated)"
+                      },
+                      "keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Up to 50 key names"
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ]
+                  }
+                }
+              }
+            },
+            "summary": {
+              "type": "string",
+              "description": "Past-tense summary of the run state"
+            },
+            "nextStep": {
+              "type": "string",
+              "description": "One primary follow-up action with identifiers interpolated"
+            }
+          },
+          "required": [
+            "runId",
+            "actorId",
+            "status",
+            "storages",
+            "summary",
+            "nextStep"
+          ]
+        },
+        "annotations": {
+          "title": "Get Actor run",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        }
+      },
+      {
+        "name": "get-dataset-items",
+        "title": "Get dataset items",
+        "description": "Get items (rows) from a dataset — the output/results produced by an Actor run.\nReturns the rows themselves, not dataset metadata, counts, or a schema.\nWhen the user provides a datasetId and asks to retrieve results, output, data, or rows, call this tool directly.\nDefault limit is 20. Use clean=true to skip empty items and hidden fields.\n\nUSAGE:\n- Use when you need to read data from a dataset (all items or only selected fields).\n\nUSAGE EXAMPLES:\n- user_input: Retrieve results from dataset abc123\n- user_input: Get only metadata.url and title from dataset username~my-dataset",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "datasetId": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Dataset ID or username~dataset-name."
+            },
+            "clean": {
+              "description": "If true, returns only non-empty items and skips hidden fields (starting with #). Shortcut for skipHidden=true and skipEmpty=true.",
+              "type": "boolean"
+            },
+            "offset": {
+              "description": "Number of items to skip at the start. Default is 0.",
+              "type": "number"
+            },
+            "limit": {
+              "description": "Maximum number of items to return. Default is 20.",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9007199254740991
+            },
+            "fields": {
+              "description": "Comma-separated list of fields to include in results. Fields in output are sorted as specified. Use dot notation for nested objects (e.g. \"metadata.url\"); the server auto-flattens parent prefixes.",
+              "type": "string"
+            },
+            "omit": {
+              "description": "Comma-separated list of fields to exclude from results.",
+              "type": "string"
+            },
+            "desc": {
+              "description": "If true, results are returned in reverse order (newest to oldest).",
+              "type": "boolean"
+            },
+            "flatten": {
+              "description": "Comma-separated list of fields to flatten (e.g. flatten=\"metadata\" turns {\"metadata\":{\"url\":\"x\"}} into {\"metadata.url\":\"x\"}). Normally derived automatically from dot-notation in `fields`; specify only as a diagnostic override.",
+              "type": "string"
+            }
+          },
+          "required": [
+            "datasetId"
+          ],
+          "additionalProperties": false
+        },
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "datasetId": {
+              "type": "string",
+              "description": "Dataset ID"
+            },
+            "apifyConsoleUrl": {
+              "type": "string",
+              "description": "Personalized Apify Console link to the dataset; present only for Console sessions"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              },
+              "description": "Dataset items"
+            },
+            "itemCount": {
+              "type": "number",
+              "description": "Number of items returned"
+            },
+            "totalItemCount": {
+              "type": "number",
+              "description": "Total items in dataset"
+            },
+            "offset": {
+              "type": "number",
+              "description": "Offset used for pagination"
+            },
+            "limit": {
+              "type": "number",
+              "description": "Limit used for pagination"
+            },
+            "summary": {
+              "type": "string",
+              "description": "Summary of the result"
+            },
+            "nextStep": {
+              "type": "string",
+              "description": "One follow-up action with tool name"
+            }
+          },
+          "required": [
+            "datasetId",
+            "items",
+            "itemCount",
+            "totalItemCount",
+            "offset",
+            "limit",
+            "summary",
+            "nextStep"
+          ]
+        },
+        "annotations": {
+          "title": "Get dataset items",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        }
+      },
+      {
+        "name": "get-key-value-store-record",
+        "title": "Get key-value store record",
+        "description": "Get the value stored under a specific key in a key-value store — a single record, not a listing of all keys.\nRequires the exact key name.\nThe response preserves the original Content-Encoding; most clients handle decompression automatically.\n\nUSAGE:\n- Use when you need to retrieve a specific record (JSON, text, or binary) from a store.\n\nUSAGE EXAMPLES:\n- user_input: Get record INPUT from store abc123\n- user_input: Get record data.json from store username~my-store",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "keyValueStoreId": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Key-value store ID or username~store-name."
+            },
+            "recordKey": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Key of the record to retrieve."
+            }
+          },
+          "required": [
+            "keyValueStoreId",
+            "recordKey"
+          ],
+          "additionalProperties": false
+        },
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "keyValueStoreId": {
+              "type": "string",
+              "description": "Key-value store ID"
+            },
+            "key": {
+              "type": "string",
+              "description": "Record key"
+            },
+            "value": {
+              "description": "The stored value (JSON, text, or binary)"
+            },
+            "contentType": {
+              "type": "string",
+              "description": "MIME type of the stored value"
+            },
+            "summary": {
+              "type": "string",
+              "description": "Summary of the result"
+            }
+          },
+          "required": [
+            "keyValueStoreId",
+            "key",
+            "value",
+            "summary"
+          ]
+        },
+        "annotations": {
+          "title": "Get key-value store record",
+          "readOnlyHint": true,
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false
+        }
+      },
+      {
+        "name": "abort-actor-run",
+        "title": "Abort Actor run",
+        "description": "Abort an Actor run that is currently starting or running.\nFor runs with status SUCCEEDED, FAILED, ABORTING, ABORTED, or TIMED-OUT, this call has no effect.\nThe results will include the updated run details after the abort request.\n\nUSAGE:\n- Use when you need to stop a run that is taking too long or misconfigured.\n\nUSAGE EXAMPLES:\n- user_input: Abort run y2h7sK3Wc\n- user_input: Gracefully abort run y2h7sK3Wc",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "runId": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The ID of the Actor run to abort."
+            },
+            "gracefully": {
+              "description": "If true, the Actor run will abort gracefully with a 30-second timeout.",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "runId"
+          ],
+          "additionalProperties": false
+        },
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "runId": {
+              "type": "string",
+              "description": "Actor run ID"
+            },
+            "apifyConsoleUrl": {
+              "type": "string",
+              "description": "Personalized Apify Console link to the run; present only for Console sessions"
+            },
+            "actorId": {
+              "type": "string",
+              "description": "Stable Apify Actor ID from the run record"
+            },
+            "actorName": {
+              "type": "string",
+              "description": "\"username/actor-name\""
+            },
+            "status": {
+              "type": "string",
+              "description": "Run status: READY | RUNNING | TIMING-OUT | TIMED-OUT | ABORTING | ABORTED | SUCCEEDED | FAILED"
+            },
+            "statusMessage": {
+              "type": "string",
+              "description": "Pass-through from Apify run.statusMessage"
+            },
+            "exitCode": {
+              "type": "number",
+              "description": "Actor process exit code; populated for terminal states (especially FAILED)"
+            },
+            "startedAt": {
+              "type": "string",
+              "description": "ISO timestamp when the run started"
+            },
+            "finishedAt": {
+              "type": "string",
+              "description": "ISO timestamp when the run finished (terminal states only)"
+            },
+            "stats": {
+              "type": "object",
+              "description": "Run statistics",
+              "properties": {
+                "runTimeSecs": {
+                  "type": "number"
+                },
+                "computeUnits": {
+                  "type": "number"
+                },
+                "memMaxBytes": {
+                  "type": "number"
+                }
+              }
+            },
+            "storages": {
+              "type": "object",
+              "description": "Dataset and key-value store metadata, keyed by alias. \"default\" is always the primary entry.",
+              "properties": {
+                "datasets": {
+                  "type": "object",
+                  "description": "Map of dataset alias → metadata. Key \"default\" is always the run's primary dataset.",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Dataset ID"
+                        },
+                        "apifyConsoleUrl": {
+                          "type": "string",
+                          "description": "Personalized Apify Console link to the dataset; present only for Console sessions"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "itemCount": {
+                          "type": "number"
+                        },
+                        "inflatedBytes": {
+                          "type": "number",
+                          "description": "Approximate uncompressed byte size of the dataset. Use with itemCount to pick limit/fields before fetching."
+                        },
+                        "fields": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Dataset field paths in dot notation (e.g. [\"metadata.url\"])"
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "default"
+                  ],
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Dataset ID"
+                      },
+                      "apifyConsoleUrl": {
+                        "type": "string",
+                        "description": "Personalized Apify Console link to the dataset; present only for Console sessions"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "itemCount": {
+                        "type": "number"
+                      },
+                      "inflatedBytes": {
+                        "type": "number",
+                        "description": "Approximate uncompressed byte size of the dataset. Use with itemCount to pick limit/fields before fetching."
+                      },
+                      "fields": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Dataset field paths in dot notation (e.g. [\"metadata.url\"])"
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ]
+                  }
+                },
+                "keyValueStores": {
+                  "type": "object",
+                  "description": "Map of key-value store alias → metadata. Key \"default\" is always the run's primary store.",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Key-value store ID"
+                        },
+                        "apifyConsoleUrl": {
+                          "type": "string",
+                          "description": "Personalized Apify Console link to the store; present only for Console sessions"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "keyCount": {
+                          "type": "number",
+                          "description": "Total number of keys (omitted when truncated)"
+                        },
+                        "keys": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Up to 50 key names"
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "default"
+                  ],
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Key-value store ID"
+                      },
+                      "apifyConsoleUrl": {
+                        "type": "string",
+                        "description": "Personalized Apify Console link to the store; present only for Console sessions"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "keyCount": {
+                        "type": "number",
+                        "description": "Total number of keys (omitted when truncated)"
+                      },
+                      "keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Up to 50 key names"
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ]
+                  }
+                }
+              }
+            },
+            "summary": {
+              "type": "string",
+              "description": "Past-tense summary of the run state"
+            },
+            "nextStep": {
+              "type": "string",
+              "description": "One primary follow-up action with identifiers interpolated"
+            }
+          },
+          "required": [
+            "runId",
+            "actorId",
+            "status",
+            "storages",
+            "summary",
+            "nextStep"
+          ]
+        },
+        "annotations": {
+          "title": "Abort Actor run",
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        }
+      },
+      {
+        "name": "kuezi--google-flights-scraper",
+        "title": "kuezi/google-flights-scraper",
+        "description": "This tool calls the Actor \"kuezi/google-flights-scraper\" and retrieves its output results.\nActor description: Scrape Google Flights for any route and dates: prices, airlines, flight numbers, times, stops, layovers, aircraft, CO2 and Google's price insights (low/typical/high + price history). Scan a date range to find the cheapest day.",
+        "inputSchema": {
+          "title": "Google Flights Scraper input",
+          "type": "object",
+          "properties": {
+            "routes": {
+              "title": "Routes",
+              "description": "**REQUIRED** One route per line using IATA airport codes: \"JFK-LAX\". Add dates per route if you like: \"JFK-LAX 2026-11-12\" (one-way) or \"JFK-LAX 2026-11-12 2026-11-19\" (round trip). Routes without dates use the dates below.\nExample values: [\"JFK-LAX\",\"LHR-JFK\"]",
+              "type": "array",
+              "prefill": [
+                "JFK-LAX",
+                "LHR-JFK"
+              ],
+              "items": {
+                "title": "Routes",
+                "description": "**REQUIRED** One route per line using IATA airport codes: \"JFK-LAX\". Add dates per route if you like: \"JFK-LAX 2026-11-12\" (one-way) or \"JFK-LAX 2026-11-12 2026-11-19\" (round trip). Routes without dates use the dates below.",
+                "type": "string"
+              },
+              "examples": [
+                "JFK-LAX",
+                "LHR-JFK"
+              ]
+            },
+            "departureDate": {
+              "title": "Departure date",
+              "description": "YYYY-MM-DD. Leave empty for 21 days from today.",
+              "type": "string"
+            },
+            "returnDate": {
+              "title": "Return date (round trip)",
+              "description": "YYYY-MM-DD. Leave empty for one-way. Round-trip prices are the total for the whole trip.",
+              "type": "string"
+            },
+            "scanDepartureUntil": {
+              "title": "Flexible dates: scan every departure day until",
+              "description": "Optional. Searches every day from the departure date up to this date (max 90 days) and reports the cheapest day per route in SUMMARY. Round trips keep the same trip length.",
+              "type": "string"
+            },
+            "scanDays": {
+              "title": "Flexible dates: scan the next N days",
+              "description": "Alternative to the date above: search every departure day from the departure date for the next N days (max 90). Handy for saved tasks and schedules because it never goes out of date. Ignored when an end date is set.",
+              "type": "integer",
+              "default": 0
+            },
+            "adults": {
+              "title": "Adults",
+              "description": "Passengers 12+.\nExample values: 1",
+              "type": "integer",
+              "default": 1,
+              "examples": [
+                1
+              ]
+            },
+            "children": {
+              "title": "Children (2-11)",
+              "description": "Prices are totals for all passengers.",
+              "type": "integer",
+              "default": 0
+            },
+            "infantsInSeat": {
+              "title": "Infants in seat",
+              "description": "Under 2, own seat.",
+              "type": "integer",
+              "default": 0
+            },
+            "infantsOnLap": {
+              "title": "Infants on lap",
+              "description": "Under 2, on an adult's lap.",
+              "type": "integer",
+              "default": 0
+            },
+            "cabinClass": {
+              "title": "Cabin class",
+              "description": "Seat class to price.\nExample values: \"economy\"",
+              "type": "string",
+              "enum": [
+                "economy",
+                "premium_economy",
+                "business",
+                "first"
+              ],
+              "default": "economy",
+              "examples": [
+                "economy"
+              ]
+            },
+            "maxStops": {
+              "title": "Maximum stops",
+              "description": "Filter applied by Google itself.\nExample values: \"any\"",
+              "type": "string",
+              "enum": [
+                "any",
+                "0",
+                "1",
+                "2"
+              ],
+              "default": "any",
+              "examples": [
+                "any"
+              ]
+            },
+            "maxPrice": {
+              "title": "Maximum price",
+              "description": "In the chosen currency, for all passengers. 0 = no limit. Filtered-out flights are not charged.",
+              "type": "integer",
+              "default": 0
+            },
+            "airlines": {
+              "title": "Only these airlines",
+              "description": "Optional IATA airline codes, e.g. DL, BA, KQ. Keeps itineraries with at least one segment on these airlines.",
+              "type": "array",
+              "items": {
+                "title": "Only these airlines",
+                "description": "Optional IATA airline codes, e.g. DL, BA, KQ. Keeps itineraries with at least one segment on these airlines.",
+                "type": "string"
+              }
+            },
+            "maxFlightsPerSearch": {
+              "title": "Max flights per search",
+              "description": "Google returns up to ~30-100 itineraries per route and date. Best and cheapest come first.\nExample values: 20",
+              "type": "integer",
+              "default": 20,
+              "examples": [
+                20
+              ]
+            },
+            "currency": {
+              "title": "Currency",
+              "description": "3-letter code: USD, EUR, GBP, INR, KES...\nExample values: \"USD\"",
+              "type": "string",
+              "default": "USD",
+              "examples": [
+                "USD"
+              ]
+            },
+            "language": {
+              "title": "Language",
+              "description": "Interface language (hl), e.g. en, de, fr.\nExample values: \"en\"",
+              "type": "string",
+              "default": "en",
+              "examples": [
+                "en"
+              ]
+            },
+            "country": {
+              "title": "Google country",
+              "description": "Point of sale (gl), e.g. us, gb, de. Prices can differ by country.\nExample values: \"us\"",
+              "type": "string",
+              "default": "us",
+              "examples": [
+                "us"
+              ]
+            },
+            "maxConcurrency": {
+              "title": "Parallel searches",
+              "description": "Searches run at the same time.\nExample values: 3",
+              "type": "integer",
+              "default": 3,
+              "examples": [
+                3
+              ]
+            },
+            "maxRetries": {
+              "title": "Retries per search",
+              "description": "Each retry uses a fresh IP.\nExample values: 5",
+              "type": "integer",
+              "default": 5,
+              "examples": [
+                5
+              ]
+            },
+            "proxyConfiguration": {
+              "title": "Proxy",
+              "description": "Residential US proxies are the reliable default for Google.\nExample values: {\"useApifyProxy\":true,\"apifyProxyGroups\":[\"RESIDENTIAL\"],\"apifyProxyCountry\":\"US\"}",
+              "type": "object",
+              "default": {
+                "useApifyProxy": true,
+                "apifyProxyGroups": [
+                  "RESIDENTIAL"
+                ],
+                "apifyProxyCountry": "US"
+              },
+              "prefill": {
+                "useApifyProxy": true,
+                "apifyProxyGroups": [
+                  "RESIDENTIAL"
+                ],
+                "apifyProxyCountry": "US"
+              },
+              "properties": {
+                "useApifyProxy": {
+                  "title": "Use Apify Proxy",
+                  "type": "boolean",
+                  "description": "Whether to use Apify Proxy. Set this to false when you want to use custom proxy URLs.",
+                  "default": true
+                },
+                "apifyProxyGroups": {
+                  "title": "Apify Proxy Groups",
+                  "type": "array",
+                  "description": "Select specific Apify Proxy groups to use (e.g., RESIDENTIAL, DATACENTER).\n**DATACENTER:**\nThe fastest and cheapest option. It uses datacenters to change your IP address. Note that there is a chance of being blocked because of the activity of other users.\n\n**RESIDENTIAL:**\nIP addresses located in homes and offices around the world. These IPs are the least likely to be blocked.",
+                  "items": {
+                    "type": "string",
+                    "title": "Proxy group name",
+                    "description": "Proxy group name",
+                    "enum": [
+                      "RESIDENTIAL",
+                      "DATACENTER"
+                    ]
+                  }
+                },
+                "proxyUrls": {
+                  "title": "Proxy URLs",
+                  "type": "array",
+                  "description": "List of custom proxy URLs to be used instead of the Apify Proxy.",
+                  "items": {
+                    "type": "string",
+                    "title": "Custom proxy URL",
+                    "description": "Custom proxy URL"
+                  }
+                }
+              },
+              "required": [
+                "useApifyProxy"
+              ],
+              "examples": [
+                {
+                  "useApifyProxy": true,
+                  "apifyProxyGroups": [
+                    "RESIDENTIAL"
+                  ],
+                  "apifyProxyCountry": "US"
+                }
+              ]
+            },
+            "waitSecs": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 45,
+              "default": 30,
+              "description": "Max seconds (0–45, default 30) to cap the wait for the Actor run to reach terminal state. For long-running Actors the response returns at the cap with the current run status; follow `nextStep` to poll via get-actor-run. Set to 0 to fire-and-forget."
+            }
+          },
+          "required": [
+            "routes"
+          ],
+          "$id": "https://apify.com/mcp/kuezi--google-flights-scraper/schema.json"
+        },
+        "outputSchema": {
+          "type": "object",
+          "properties": {
+            "runId": {
+              "type": "string",
+              "description": "Actor run ID"
+            },
+            "apifyConsoleUrl": {
+              "type": "string",
+              "description": "Personalized Apify Console link to the run; present only for Console sessions"
+            },
+            "actorId": {
+              "type": "string",
+              "description": "Stable Apify Actor ID from the run record"
+            },
+            "actorName": {
+              "type": "string",
+              "description": "\"username/actor-name\""
+            },
+            "status": {
+              "type": "string",
+              "description": "Run status: READY | RUNNING | TIMING-OUT | TIMED-OUT | ABORTING | ABORTED | SUCCEEDED | FAILED"
+            },
+            "statusMessage": {
+              "type": "string",
+              "description": "Pass-through from Apify run.statusMessage"
+            },
+            "exitCode": {
+              "type": "number",
+              "description": "Actor process exit code; populated for terminal states (especially FAILED)"
+            },
+            "startedAt": {
+              "type": "string",
+              "description": "ISO timestamp when the run started"
+            },
+            "finishedAt": {
+              "type": "string",
+              "description": "ISO timestamp when the run finished (terminal states only)"
+            },
+            "stats": {
+              "type": "object",
+              "description": "Run statistics",
+              "properties": {
+                "runTimeSecs": {
+                  "type": "number"
+                },
+                "computeUnits": {
+                  "type": "number"
+                },
+                "memMaxBytes": {
+                  "type": "number"
+                }
+              }
+            },
+            "storages": {
+              "type": "object",
+              "description": "Dataset and key-value store metadata, keyed by alias. \"default\" is always the primary entry.",
+              "properties": {
+                "datasets": {
+                  "type": "object",
+                  "description": "Map of dataset alias → metadata. Key \"default\" is always the run's primary dataset.",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Dataset ID"
+                        },
+                        "apifyConsoleUrl": {
+                          "type": "string",
+                          "description": "Personalized Apify Console link to the dataset; present only for Console sessions"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "itemCount": {
+                          "type": "number"
+                        },
+                        "inflatedBytes": {
+                          "type": "number",
+                          "description": "Approximate uncompressed byte size of the dataset. Use with itemCount to pick limit/fields before fetching."
+                        },
+                        "fields": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Dataset field paths in dot notation (e.g. [\"metadata.url\"])"
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "default"
+                  ],
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Dataset ID"
+                      },
+                      "apifyConsoleUrl": {
+                        "type": "string",
+                        "description": "Personalized Apify Console link to the dataset; present only for Console sessions"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "itemCount": {
+                        "type": "number"
+                      },
+                      "inflatedBytes": {
+                        "type": "number",
+                        "description": "Approximate uncompressed byte size of the dataset. Use with itemCount to pick limit/fields before fetching."
+                      },
+                      "fields": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Dataset field paths in dot notation (e.g. [\"metadata.url\"])"
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ]
+                  }
+                },
+                "keyValueStores": {
+                  "type": "object",
+                  "description": "Map of key-value store alias → metadata. Key \"default\" is always the run's primary store.",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Key-value store ID"
+                        },
+                        "apifyConsoleUrl": {
+                          "type": "string",
+                          "description": "Personalized Apify Console link to the store; present only for Console sessions"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "keyCount": {
+                          "type": "number",
+                          "description": "Total number of keys (omitted when truncated)"
+                        },
+                        "keys": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "description": "Up to 50 key names"
+                        }
+                      },
+                      "required": [
+                        "id"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "default"
+                  ],
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Key-value store ID"
+                      },
+                      "apifyConsoleUrl": {
+                        "type": "string",
+                        "description": "Personalized Apify Console link to the store; present only for Console sessions"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "keyCount": {
+                        "type": "number",
+                        "description": "Total number of keys (omitted when truncated)"
+                      },
+                      "keys": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "Up to 50 key names"
+                      }
+                    },
+                    "required": [
+                      "id"
+                    ]
+                  }
+                }
+              }
+            },
+            "summary": {
+              "type": "string",
+              "description": "Past-tense summary of the run state"
+            },
+            "nextStep": {
+              "type": "string",
+              "description": "One primary follow-up action with identifiers interpolated"
+            }
+          },
+          "required": [
+            "runId",
+            "actorId",
+            "status",
+            "storages",
+            "summary",
+            "nextStep"
+          ]
+        },
+        "annotations": {
+          "title": "kuezi/google-flights-scraper",
+          "readOnlyHint": false,
+          "destructiveHint": true,
+          "openWorldHint": true
+        },
+        "icons": [
+          {
+            "src": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/0A2VEPU8uvCJczRmt-actor-codNzEhXfF2sgw5PH-Yx8Fmmc9cB-google-flights.png",
+            "mimeType": "image/png"
+          }
+        ],
+        "execution": {
+          "taskSupport": "optional"
+        }
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}
